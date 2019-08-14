@@ -1,0 +1,85 @@
+.button {
+  padding: 8px 16px;
+  display: inline-flex;
+  font-size: 1rem;
+  border: 1px solid #333333;
+  color: #000;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+.button-primary {
+  border-color: #009688;
+  background-color: transparent;
+  color: #00e0d0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-primary:hover {
+  border-color: #ffffff;
+  background-color: #009688;
+  color: #ffffff;
+}
+
+.button-secondary {
+  border: 1px solid #00e0d0;
+  background-color: #fff;
+  color: #00e0d0;
+  font-family: "Hammersmith One"sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-third {
+  width: 70px;
+  height: 45px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.button-third:hover {
+  border-color: white;
+  background-color: #009688;
+  color: black;
+}
+
+.button-secondary:hover {
+  border-color: #009688;
+  background-color: #009688;
+  color: #fff;
+}
+
+.button-large {
+  padding: 16px 32px;
+}
+
+.button-small {
+  padding: 4px 8px;
+}
+
+.button-block {
+  width: 100%;
+}
+
+.works-button {
+  margin-top: 70px;
+  margin-bottom: 75px;
+}

@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5;
+  font-family: Roboto;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  box-sizing: content-box;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 10px 0;
+}
+
+*+p,
+*+ul,
+*+ol,
+*+figure {
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+*+h1,
+*+h2,
+*+h3,
+*+h4,
+*+h5,
+*+h6 {
+  margin-top: 0.67em;
+}
+
+a,
+.link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+  color: #00e0d0;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.breadcrumb li::after {
+  content: '>';
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.breadcrumb-item {
+  color: #413d4b;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.input-secondary {
+  width: 211px;
+  height: 45px;
+  border: 1px solid #ffffff;
+  opacity: 0.85;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  background-color: transparent;
+  text-align: center;
+}
+
+
+
+
+
+.icon-twitter {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}
+
+.icon-facebook {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}
+
+.icon-browser {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}
+
+.icon-google {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}
+
+.icon-youtube-play {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}
+
+.icon-send {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}
+
+.icon-instagram {
+  content: url(https://fakeimg.pl/17x17/);
+  width: 17px;
+  height: 17px;
+
+}

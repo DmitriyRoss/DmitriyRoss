@@ -1,0 +1,27 @@
+.list {
+  list-style-type: none;
+}
+
+.list--social {
+  display: flex;
+}
+
+.li-social {
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  
+}
+
+.link-social {
+  color: white;
+}
+
+
+.spot {
+  list-style: url(https://fakeimg.pl/17x17/)
+}
+
+.telephone {
+  list-style: url(https://fakeimg.pl/17x17/)
+}

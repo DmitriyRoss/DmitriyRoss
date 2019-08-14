@@ -1,0 +1,117 @@
+.card {
+  position: relative;
+  width: 33.33%;
+  text-align: center;
+  border-right: 1px solid rgba(000, 000, 000, 0.2);
+  border-bottom: 1px solid rgba(000, 000, 000, 0.2);
+  padding: 10px;
+
+}
+
+
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.card-cover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.card-title {
+  height: 10px;
+  color: #333333;
+  font-family: Roboto - Black;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  letter-spacing: 0.7px;
+}
+
+.card-description {
+  opacity: 0.75;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.card-person-image {
+  width: 220px;
+  height: 229px;
+  margin: 0;
+  margin-bottom: 23px;
+
+}
+
+.card-person {
+  width: 25%;
+}
+
+
+.card-person-title {
+  padding-top: 20px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  text-align: center;
+}
+
+.card-person-subtitle {
+  opacity: 0.7;
+  color: #fafafa;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-person-bottom {
+  border: 1px solid #e1e1e1;
+  border-top: 0px;
+  opacity: 0.5;
+}
+
+.card-person-top {
+  position: relative;
+}
+
+.list-social {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.list-social-img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-person .list-social {
+  display: none;
+}
+
+.card-person:hover .list-social {
+  display: flex;
+}

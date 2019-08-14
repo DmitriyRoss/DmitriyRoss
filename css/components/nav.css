@@ -1,0 +1,16 @@
+.nav-item:hover {
+  color: #00e0d0;
+  text-decoration: none;
+}
+  
+.nav-item {
+  width: 526px;
+  height: 9px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  margin-right: 25px;
+}
