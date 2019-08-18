@@ -107,57 +107,9 @@ img {
   font-weight: 300;
   line-height: 26px;
   background-color: transparent;
-  text-align: center;
+  padding-left: 15px;
 }
 
 
 
 
-
-.icon-twitter {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}
-
-.icon-facebook {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}
-
-.icon-browser {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}
-
-.icon-google {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}
-
-.icon-youtube-play {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}
-
-.icon-send {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}
-.icon-instagram {
-  content: url(https://fakeimg.pl/17x17/);
-  width: 17px;
-  height: 17px;
-
-}

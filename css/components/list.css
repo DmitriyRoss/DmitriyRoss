@@ -10,18 +10,28 @@
   margin-right: 10px;
   border: 1px solid white;
   border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
   
+}
+
+.li-social:hover {
+  border-color: #00e0d0;
 }
 
 .link-social {
   color: white;
 }
 
-
-.spot {
-  list-style: url(https://fakeimg.pl/17x17/)
+.list-style-contacts {
+  position: relative;
 }
 
-.telephone {
-  list-style: url(https://fakeimg.pl/17x17/)
+.list-icon {
+  position: absolute;
+  left: 1px;
 }

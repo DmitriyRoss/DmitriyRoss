@@ -32,7 +32,7 @@
 }
 
 .button-primary:hover {
-  border-color: #ffffff;
+  border-color: transparent;
   background-color: #009688;
   color: #ffffff;
 }
@@ -56,13 +56,13 @@
 }
 
 .button-third:hover {
-  border-color: white;
+  border-color: transparent;
   background-color: #009688;
   color: black;
 }
 
 .button-secondary:hover {
-  border-color: #009688;
+  border-color: transparent;
   background-color: #009688;
   color: #fff;
 }
