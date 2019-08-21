@@ -51,30 +51,25 @@
   }
   .icon-social-facebook:before {
     content: "\e903";
-    color: white;
   }
+ 
   .icon-location-arrow:before {
     content: "\e904";
     color: white;
   }
   .icon-google:before {
     content: "\e905";
-    color: white;
   }
   .icon-instagram:before {
     content: "\e906";
-    color: white;
   }
   .icon-twitter:before {
     content: "\ea96";
-    color: white;
   }
   .icon-youtube:before {
     content: "\ea9d";
-    color: white;
   }
   .icon-dribbble:before {
     content: "\eaa7";
-    color: white;
   }
   

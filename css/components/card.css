@@ -25,7 +25,18 @@
   right: 0;
   left: 0;
   bottom: 0;
+  background-color: rgba(225, 255, 255, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
+
+
+.card-person:hover .card-cover {
+  display: flex;
+}
+
+
 
 .card-title {
   height: 10px;
@@ -48,11 +59,15 @@
 }
 
 .card-person-image {
-  width: 220px;
-  height: 229px;
   margin: 0;
-  margin-bottom: 23px;
+  position: relative;
 
+}
+
+.card-person-image .image {
+  width: 220px;
+  height: 230px;
+  display: block;
 }
 
 .card-person {
@@ -112,6 +127,14 @@
   align-items: center;
 }
 
+.list-social .link {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .list-social-icon:hover {
   background-color:#4e5a62;
 }
@@ -130,7 +153,7 @@
   display: flex;
 }
 
-.card-person-bottom:hover {
-  background-color: black;
-
+.card-person:hover .card-person-bottom {
+  background-color: #3a454d;
+  color: #ffffff;
 }

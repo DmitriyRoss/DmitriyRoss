@@ -110,6 +110,10 @@ img {
   padding-left: 15px;
 }
 
+a:hover, .link:hover {
+  color: #00e0d0;
+  border-color: #00e0d0;
+}
 
 
 
